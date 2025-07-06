@@ -6,7 +6,7 @@ FROM n8nio/n8n:latest
 # ENV N8N_PROTOCOL=https
 # ENV NODE_ENV=production
 
-# Expose port 8080 untuk Cloud Run
-EXPOSE 8080
+# Expose port 5678 untuk Cloud Run
+EXPOSE 5678
 
 # n8n sudah ada entrypoint defaultnya
